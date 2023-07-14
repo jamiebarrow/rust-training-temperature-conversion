@@ -1,6 +1,6 @@
 [package]
 name = "jamiebarrow_training_temperature-conversion"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["James Barrow"]
 edition = "2021"
 description = "Simple example of a Celcius to Fahrenheit command line application useful for learning software development"
