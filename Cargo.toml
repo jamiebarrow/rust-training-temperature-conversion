@@ -1,0 +1,14 @@
+[package]
+name = "jamiebarrow_training_temperature-conversion"
+version = "0.0.1"
+authors = ["James Barrow"]
+edition = "2021"
+description = "Simple example of a Celcius to Fahrenheit command line application useful for learning software development"
+repository = "https://github.com/jamiebarrow/rust-training-temperature-conversion"
+license = "MIT"
+publish = false
+categories = ["command-line-utilities", "rust-patterns"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
