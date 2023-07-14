@@ -9,10 +9,7 @@ fn main() {
     stdin.lock().read_line(&mut line).expect("Could not read temperature!");
     
     let line = line.trim();
-    let celcius: isize = match line.parse() {
-        Ok(n) => n,
-        Err(_) => 0
-    };
+    let celcius: isize = line.parse().unwrap_or_default();
     let fahrenheit = calculate_fahrenheit(celcius);
     println!("{} degrees Celcius = {} degrees Fahrenheit", celcius, fahrenheit);
 }
